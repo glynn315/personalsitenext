@@ -3,7 +3,7 @@
 import Landing from "@/views/home";
 import About from "@/views/about";
 import Skills from "@/views/skills";
-import Projects from "@/views/projects";
+// import Projects from "@/views/projects";
 import Contact from "@/views/contact";
 import React from "react";
 
