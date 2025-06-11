@@ -3,7 +3,7 @@ export default function landing() {
         <div id="home" className="h-dvh w-[1366px] top-0 z-10 flex items-center">
             <div className="mt-16 flex justify-center items-center w-full">
                 <div className=" w-full flex flex-col">
-                    <span className="text-3xl font-light leading-none text-white">Hi! Welcome to my</span>
+                    <span className="text-3xl font-light leading-none text-white">Hi Welcome to my</span>
                     <span className="text-[90px] font-bold leading-none text-white">PORTFOLIO</span> 
                     <div className="flex justify-start items-center w-full p-3 gap-6">
                     <a href="https://www.facebook.com/messages/t/5890368184334852/" target="_blank"><img src="messenger.webp" className="w-12 p-3 rounded-2xl bg-white hover:scale-125 duration-500" alt=""/></a>
