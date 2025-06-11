@@ -10,10 +10,12 @@ import 'swiper/css/pagination';
 
 export default function Projects() {
     return (
-        <div
-            id="projects"
-            className="h-dvh w-full mx-auto z-10 flex items-center justify-center"
+        <div id="projects" className="h-dvh w-full mx-auto z-10 flex flex-col items-center justify-center"
         >
+            <div className=" w-[1400px] flex flex-col">
+                <span className="text-[100px] font-extrabold opacity-20 text-white leading-none">Projects</span>
+                <span className="text-[50px] -mt-10 font-extrabold text-white leading-none">Previous Projects</span>
+            </div>
             <div className="mt-16 flex flex-col justify-center items-center w-full px-14">
                 <Swiper
                     modules={[Navigation]}
