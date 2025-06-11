@@ -1,0 +1,7 @@
+@import "tailwindcss";
+.nav{
+    background: #0000001c;
+}
+html,body{
+  scroll-behavior: smooth;
+}
