@@ -4,4 +4,10 @@
 }
 html,body{
   scroll-behavior: smooth;
+  background: #002e3d;
+  background: linear-gradient(90deg,rgba(0, 46, 61, 1) 0%, rgba(5, 0, 13, 1) 100%);
+}
+.contact{
+  background: #002e3d;
+  background: linear-gradient(-90deg,rgba(0, 46, 61, 1) 0%, rgba(5, 0, 13, 1) 100%);
 }
