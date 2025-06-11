@@ -1,6 +1,8 @@
 @import "tailwindcss";
 .nav{
-    background: #0000001c;
+    background: #0000001c !important;
+    max-width: 100% !important;
+    width: 100% !important;
 }
 html,body{
   scroll-behavior: smooth;
@@ -10,4 +12,207 @@ html,body{
 .contact{
   background: #002e3d;
   background: linear-gradient(-90deg,rgba(0, 46, 61, 1) 0%, rgba(5, 0, 13, 1) 100%);
+}
+
+
+  
+@media screen and (max-width: 1024px) {
+  #home{
+    .heading{
+      font-size:70px;
+    }
+    .intro{
+      width: 100%;
+      padding: 30px;
+    }
+    .profile{
+      width: 100%;
+    }
+    .me{
+      width: 70%;
+      margin: 0 auto;
+    }
+    .box{
+      &:nth-child(1){
+        left: 5px;
+      }
+      &:nth-child(2){
+        margin-top: 0px;
+        right: 30px;
+      }
+      &:nth-child(3){
+        margin-top: 0px;
+      }
+      &:nth-child(4){
+        right: 10px;
+      }
+    }
+  }
+  #about{
+    .headingshadow{
+      font-size: 80px;
+    }
+    img{
+      width: 90%;
+    }
+    .heading{
+      font-size: 40px;
+      margin-top:-40px !important;
+    }
+    .subtext{
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+  #contact{
+    .headline{
+      font-size: 40px;
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .nav{
+    display: none;
+    
+  }
+  .navMobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4848482c;
+    width: 100%;
+    .headerLogo{
+      font-size: 20px;
+    }
+    .navDisplay{
+      width: 90%;
+      padding: 20px;
+      border-radius: 20px;
+      li{
+        height: 50px;
+      }
+    }
+  }
+  #home{
+    width: 90%;
+    .homecontainer{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .heading{
+      font-size: 50px;
+    }
+    .intro{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .icons{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .box{
+      &:nth-child(1){
+        left: 40px;
+      }
+      &:nth-child(2){
+        right: 40px;
+        width: 40%;
+      }
+      &:nth-child(3){
+        left: 20px;
+        width: 30%;
+      }
+      &:nth-child(4){
+        right:20px;
+      }
+    }
+  }
+  #about{
+    padding: 30px;
+    .headingshadow{
+      font-size: 50px;
+    }
+    .imgDisplay{
+      justify-content: center;
+      align-items: start;
+    }
+    img{
+      width: 70%;
+    }
+    .aboutDisplay{
+      display: flex;
+      margin-top: unset;
+      flex-direction: column-reverse;
+    }
+  }
+  #technologies{
+    width: 100% !important;
+    padding: 20px;
+    text-align: center;
+    .headingShadow{
+      font-size: 40px;
+    }
+    .heading{
+      font-size: 30px;
+      margin-top: -30px;
+    }
+    .frontendDisplay, .backendDisplay, .databaseDisplay , .creativesDisplay{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      div{
+        &:nth-child(1){
+          width: 100%;
+          margin-bottom: 5px;
+        }
+      }
+    }
+    .fontendContainer , .backendContainer, .databaseContainer, .creativesContainer{
+      border-left: unset;
+      padding-left: unset;
+      padding-top: 10px;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      border-top: 4px solid #ffffff1c;
+    }
+  }
+  #contact{
+    .contact{
+      flex-direction: column;
+      
+      div{
+        width: 100%;
+        &:nth-child(2){
+          border-left: unset;
+          border-top: 3px solid #ffffff1c;
+          padding-left: unset;
+          padding-top: 20px;
+        }
+      }
+    }
+    .headline{
+      font-size: 35px;
+    }
+    table{
+      a{
+        font-size: 12px;
+      }
+      img{
+        width: 30px !important;
+      }
+    }
+    .footer{
+      h1{
+        font-size: 18px;
+      }
+      span{
+        font-size: 10px;
+      }
+    }
+  }
 }
