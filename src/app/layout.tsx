@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Personal Portfolio",
+  title: "Yvert Glynn Soriano",
   description: "This is Yvert Glynn Soriano's personal portfolio website.",
 };
 

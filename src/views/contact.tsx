@@ -12,10 +12,10 @@ export default function Contact(){
                                 <td><img src="letter.png" alt="" className="w-8"/></td>
                                 <td className="text-white pl-4"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=sorianoyvert26@gmail.com" target="_blank">sorianoyvert26&#64;gmail.com</a></td>
                             </tr>
-                            <tr className="h-14">
+                            {/* <tr className="h-14">
                                 <td><img src="contact.png" alt="" className="w-8"/></td>
                                 <td className="text-white pl-4">09569435938</td>
-                            </tr>
+                            </tr> */}
                             <tr className="h-14">
                                 <td><img src="text.png" alt="" className="w-8"/></td>
                                 <td className="text-white pl-4"><a href="https://www.messenger.com/t/10030725137042171/" target="_blank">Yvert Glynn Soriano</a></td>
