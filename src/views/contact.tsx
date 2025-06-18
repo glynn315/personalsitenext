@@ -28,7 +28,7 @@ export default function Contact(){
             <div className="w-full footer p-7">
                 <div className="w-full flex justify-between items-center text-white">
                     <h1 className="font-extrabold text-3xl">&#60;GLYNN&#62;</h1>
-                    <span>Copyright &#64;    2025 Yvert Glynn Soriano. All rights reserved.</span>
+                    <span>Copyright &#64;    2025 . All rights reserved.</span>
                 </div>
             </div>
         </div>

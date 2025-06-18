@@ -6,6 +6,7 @@ import Skills from "@/views/skills";
 // import Projects from "@/views/projects";
 import Contact from "@/views/contact";
 import React from "react";
+import Certificate from "@/views/certificate";
 
 export default function Home() {
 
@@ -54,6 +55,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center">
         <Landing /> 
         <About/>
+        <Certificate/>
         <Skills/>
         {/* <Projects/> */}
         <Contact/>
